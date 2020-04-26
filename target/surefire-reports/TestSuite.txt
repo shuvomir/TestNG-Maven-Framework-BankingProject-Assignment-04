@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 15, Time elapsed: 35.716 s <<< FAILURE! - in TestSuite
+com.accenttechPartnersGuru99.testCases.TC_001.setUp  Time elapsed: 23.676 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:46272
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OWNER', ip: '192.168.1.71', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver
+	at com.accenttechPartnersGuru99.testCases.TC_001.setUp(TC_001.java:30)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:46272
+	at com.accenttechPartnersGuru99.testCases.TC_001.setUp(TC_001.java:30)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.accenttechPartnersGuru99.testCases.TC_001.setUp(TC_001.java:30)
+
