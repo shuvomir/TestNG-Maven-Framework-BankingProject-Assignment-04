@@ -47,7 +47,7 @@ commonMethods.sendData(newcustomer.TxtCity, getDriver(), "Plantation");
 commonMethods.sendData(newcustomer.TxtState, getDriver(), "Florida");
 commonMethods.sendData(newcustomer.TxtPin, getDriver(), "987651");
 commonMethods.sendData(newcustomer.TxtMobNum, getDriver(), "9541234567");
-commonMethods.sendData(newcustomer.TxtEmail, getDriver(), "rtfr8hgt54hsogfd@aol.com");
+commonMethods.sendData(newcustomer.TxtEmail, getDriver(), "rtfr8kjhgf4hsogfd@aol.com");
 commonMethods.sendData(newcustomer.TxtPassword, getDriver(),"mike09352");
 Thread.sleep(5000);
 driver.findElement(By.xpath("//input[@value='Submit']")).click();
