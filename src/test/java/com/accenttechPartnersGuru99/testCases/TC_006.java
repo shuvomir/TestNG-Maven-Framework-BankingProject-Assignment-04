@@ -36,7 +36,7 @@ public class TC_006 extends BaseClass{
 	
 	commonMethods.getTitle(getDriver(), "Guru99 Bank Manager HomePage");
 	commonMethods.click(deleteaccount.ClickDeleteAccount, getDriver());	
-	commonMethods.sendData(deleteaccount.AccountNo, getDriver(), "77708");
+	commonMethods.sendData(deleteaccount.AccountNo, getDriver(), "77709");
 	commonMethods.click(deleteaccount.Submit, getDriver());
 	Alert al = driver.switchTo().alert();
 	Thread.sleep(5000);
