@@ -12,6 +12,7 @@ public static WebDriver driver=null;
 public static WebDriverWait wait;
 public static WebElement WElement;
 public static Logger logger;
+public static Logger1 logger1;
 
 public BaseClass (WebDriver driver) {
 	BaseClass.driver=driver;
